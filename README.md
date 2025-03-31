@@ -1,5 +1,5 @@
 Inditex es un servicio de backend desarrollado utilizando los conceptos de "Arquitectura Hexagonal" o "Puertos y Adaptadores".
-Se utiliza "Spring Boot" y "H2" como base de datos.
+Se utiliza "Spring Boot" y "H2" como base de datos. Los datos de entrada de la base de datos se cargan desde el fichero data.sql.
 La configuración de la aplicación se encuentra en el archivo application.properties. En este archivo, se configura la conexión a la base de datos H2 y otros parámetros de la aplicación.
 El proyecto está estructurado en capas de acuerdo con la arquitectura hexagonal:
 Dominio: Contiene la lógica de negocio de la aplicación, implementada usando los principios de DDD. Los componentes de dominio incluyen entidades, objetos de valor y agregados.
